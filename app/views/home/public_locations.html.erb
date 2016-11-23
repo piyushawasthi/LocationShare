@@ -1,0 +1,4 @@
+<h5>Public locations shared by <%= @user.user_name || @user.email %></h5>
+<%= content_tag "div", id: "map", class: "map", data: { location: @locations } do %>
+  <div id="popup"></div>
+<% end %>
