@@ -9,3 +9,5 @@
 * rake db:seed
 
 * rails s (run rails app)
+
+Thanks
